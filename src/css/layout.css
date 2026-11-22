@@ -209,21 +209,24 @@ input, textarea { font: inherit; }
 .cmd-btn {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 6px 10px;
+  gap: 8px;
+  padding: 8px 12px;
+  min-height: 40px;
   border-radius: var(--radius-pill);
   color: var(--text-soft);
-  border: 1px solid transparent;
+  border: 1px solid var(--border-soft);
+  background: rgba(255,255,255,0.5);
 }
-.cmd-btn:hover { background: var(--bg-warm); color: var(--text); }
-.cmd-btn-icon { display: flex; align-items: center; }
+.cmd-btn:hover { background: var(--bg-warm); color: var(--text); border-color: var(--border); }
+.cmd-btn-icon { display: flex; align-items: center; flex-shrink: 0; }
 .cmd-kbd {
   font-family: var(--font-mono);
   font-size: 11px;
   line-height: 1;
-  padding: 4px 6px;
-  border-radius: 6px;
+  padding: 3px 6px;
+  border-radius: 5px;
   background: var(--bg-warm);
   border: 1px solid var(--border);
   color: var(--text-soft);
+  white-space: nowrap;
 }

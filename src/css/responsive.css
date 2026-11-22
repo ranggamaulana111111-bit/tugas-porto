@@ -31,7 +31,7 @@
     border-top: 1px solid var(--border-soft);
     justify-content: space-between;
   }
-  .cmd-btn { flex: 1; justify-content: space-between; border: 1px solid var(--border); padding: 10px 14px; }
+  .cmd-btn { flex: 1; justify-content: space-between; padding: 10px 14px; min-height: 44px; background: var(--bg-warm); }
   .cmd-btn .cmd-btn-icon::after { content: 'Cari...'; font-size: 14px; margin-left: 6px; color: var(--text-soft); }
   .cmd-btn-icon { display: inline-flex; align-items: center; }
 

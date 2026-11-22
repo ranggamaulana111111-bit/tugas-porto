@@ -11,8 +11,9 @@
   align-items: center;
 }
 .hero-copy { max-width: 768px; }
-.hero-eyebrow { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-.eyebrow-dot { color: var(--text-faint); }
+.hero-eyebrow { display: inline-flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 8px 14px; background: rgba(255,255,255,0.7); border: 1px solid var(--border-soft); border-radius: var(--radius-pill); width: fit-content; max-width: 100%; line-height: 1; }
+.eyebrow-loc, .hero-eyebrow > span:last-child { white-space: nowrap; }
+.eyebrow-dot { color: var(--accent); font-size: 14px; line-height: 1; transform: translateY(-0.5px); }
 .hero-title {
   margin-top: 16px;
   font-family: var(--font-display);
