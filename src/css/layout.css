@@ -93,11 +93,11 @@ input, textarea { font: inherit; }
 }
 .nav {
   pointer-events: auto;
-  width: min(100%, 896px);
+  width: min(100%, 1040px);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
+  gap: 6px;
   padding: 8px;
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(12px);
@@ -105,6 +105,7 @@ input, textarea { font: inherit; }
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
   box-shadow: var(--shadow-card);
+  overflow: clip;
 }
 .brand {
   font-family: var(--font-mono);
@@ -123,22 +124,29 @@ input, textarea { font: inherit; }
   align-items: center;
   gap: 4px;
   margin-left: auto;
+  min-width: 0;
 }
 .nav-links {
   display: flex;
   align-items: center;
   gap: 2px;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
+.nav-links::-webkit-scrollbar { display: none; }
 .nav-link {
   display: inline-flex;
   align-items: center;
-  padding: 6px 10px;
-  font-size: 14px;
+  padding: 6px 8px;
+  font-size: 13px;
   line-height: 20px;
   color: var(--text-soft);
   border-radius: var(--radius-pill);
   transition: color 0.2s, background 0.2s;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 .nav-link:hover { color: var(--text); background: rgba(0,0,0,0.03); }
 .nav-link.is-active { color: var(--accent-deep); background: transparent; }
@@ -146,9 +154,10 @@ input, textarea { font: inherit; }
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-left: 8px;
+  margin-left: 4px;
   padding-left: 8px;
   border-left: 1px solid var(--border-soft);
+  flex-shrink: 0;
 }
 .nav-toggle {
   display: none;
