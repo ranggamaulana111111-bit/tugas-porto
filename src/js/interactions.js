@@ -203,12 +203,25 @@ function initMessages() {
       feed.innerHTML = `<p class="feed-empty">Belum ada pesan. Jadi yang pertama mengirim.</p>`;
       return;
     }
-    feed.innerHTML = items.map((m) => `
+    feed.innerHTML = items.map((m, i) => `
       <article class="feed-item">
-        <div class="feed-meta"><span class="feed-name">${escapeHtml(m.name || 'Anonim')}</span><span>${escapeHtml(m.time)}</span></div>
+        <div class="feed-meta">
+          <span class="feed-name">${escapeHtml(m.name || 'Anonim')}</span>
+          <span>${escapeHtml(m.time)}</span>
+          <button class="feed-delete" type="button" data-del-msg="${i}" aria-label="Hapus pesan">Hapus</button>
+        </div>
         <p class="feed-msg">${escapeHtml(m.text)}</p>
       </article>`).join('');
   };
+
+  feed.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-del-msg]');
+    if (!btn) return;
+    const items = load();
+    items.splice(Number(btn.dataset.delMsg), 1);
+    save(items);
+    renderFeed();
+  });
 
   text.addEventListener('input', () => { count.textContent = String(text.value.length); });
   form.addEventListener('submit', (e) => {

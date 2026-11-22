@@ -165,6 +165,8 @@
 .feed-empty { font-size: 14px; color: var(--text-faint); line-height: 1.6; }
 .feed-item { padding-bottom: 16px; border-bottom: 1px solid var(--border-soft); }
 .feed-item:last-child { padding-bottom: 0; border-bottom: 0; }
-.feed-meta { display: flex; gap: 8px; font-family: var(--font-mono); font-size: 11px; color: var(--text-faint); margin-bottom: 6px; }
+.feed-meta { display: flex; gap: 8px; align-items: center; font-family: var(--font-mono); font-size: 11px; color: var(--text-faint); margin-bottom: 6px; }
 .feed-name { color: var(--text-soft); }
+.feed-delete { margin-left: auto; font: inherit; font-size: 11px; color: var(--text-faint); background: none; border: none; padding: 2px 4px; cursor: pointer; border-radius: 4px; }
+.feed-delete:hover { color: #b44a3a; background: rgba(180,74,58,0.06); }
 .feed-msg { font-size: 14px; line-height: 1.65; color: var(--text-muted); white-space: pre-wrap; word-break: break-word; }
