@@ -9,7 +9,7 @@ export const site = {
   github: 'https://github.com/ranggamaulana111111-bit',
   linkedin: 'https://www.linkedin.com/in/rangga-maulana-ramadhan-wiharto-022077337/',
   whatsapp: 'https://wa.me/6285774138047',
-  cv: '/cv',
+  cv: './cv.html',
   spotify: 'https://open.spotify.com/playlist/1dd0RgxyoiRiFLptOChO6e?si=02ad28709f664a86',
 };
 

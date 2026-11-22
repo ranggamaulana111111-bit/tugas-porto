@@ -96,7 +96,7 @@ export function renderLearning() {
 
 export function renderNotes() {
   $('#notes-list').innerHTML = notes.map((n) => `
-    <a class="note-item reveal" href=".${n.href}.html" target="_blank" rel="noopener noreferrer">
+    <a class="note-item reveal" href="./catatan.html" target="_blank" rel="noopener noreferrer">
       <p class="note-meta"><span>${escapeHtml(n.date)}</span><span>${escapeHtml(n.category)}</span><span>${escapeHtml(n.read)}</span></p>
       <h3 class="note-title">${escapeHtml(n.title)}</h3>
     </a>
