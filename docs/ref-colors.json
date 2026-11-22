@@ -1,0 +1,339 @@
+﻿url        https://ranggamrw.my.id
+http       200
+load       2232ms
+title      "Rangga Maulana Ramadhan Wiharto"
+bodyChars  7045
+patchright C:\Users\hp\.vscode\extensions\danielsanmedium.dscodegpt-3.24.84\standalone/
+text       rangga.mrw Beranda Tentang Project Perjalanan Stack Workspace Pesan Kontak ΓîÿK Hubungi SERANG, BANTEN ┬╖ RANGGA.MRW Rangga Maulana Ramadhan Wiharto Mahasiswa Sistem Informasi. Berada di Serang, Banten. 
+script     {
+ "body": {
+  "bg": "rgb(253, 251, 247)",
+  "color": "rgb(26, 26, 26)"
+ },
+ "labels": [
+  {
+   "t": "SERANG, BANTEN ┬╖ RANGGA.MRW",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "12px"
+  },
+  {
+   "t": "Project yang sedang saya bangun: Alkonek",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "14px"
+  },
+  {
+   "t": "MENDENGARKAN",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "12px"
+  },
+  {
+   "t": "Buka di Spotify",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "12px"
+  },
+  {
+   "t": "CURRENTLY",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "12px"
+  },
+  {
+   "t": "01",
+   "c": "rgb(107, 101, 96)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "12px"
+  },
+  {
+   "t": "KULIAH",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "12px"
+  },
+  {
+   "t": "02",
+   "c": "rgb(107, 101, 96)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "12px"
+  },
+  {
+   "t": "BANGUN",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "12px"
+  },
+  {
+   "t": "03",
+   "c": "rgb(107, 101, 96)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "12px"
+  }
+ ],
+ "accents": [
+  {
+   "t": "Beranda",
+   "c": "rgb(142, 62, 26)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "9999px",
+   "fs": "14px"
+  },
+  {
+   "t": "",
+   "c": "rgb(142, 62, 26)",
+   "bg": "rgb(253, 240, 232)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "9999px",
+   "fs": "14px"
+  },
+  {
+   "t": "Workspace",
+   "c": "rgb(142, 62, 26)",
+   "bg": "rgb(253, 240, 232)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "9999px",
+   "fs": "14px"
+  },
+  {
+   "t": "ΓîÿK",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgb(246, 240, 232)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "9999px",
+   "fs": "11px"
+  },
+  {
+   "t": "Hubungi",
+   "c": "rgb(255, 255, 255)",
+   "bg": "rgb(181, 82, 32)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "9999px",
+   "fs": "14px"
+  },
+  {
+   "t": "Lihat Project",
+   "c": "rgb(255, 255, 255)",
+   "bg": "rgb(181, 82, 32)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "9999px",
+   "fs": "14px"
+  },
+  {
+   "t": "Buka di Spotify",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "12px"
+  },
+  {
+   "t": "Buka daftar putar di Spotify",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgb(255, 255, 255)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "9999px",
+   "fs": "12px"
+  },
+  {
+   "t": "ISP Billing System",
+   "c": "rgb(142, 62, 26)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "12px"
+  },
+  {
+   "t": "Live",
+   "c": "rgb(255, 255, 255)",
+   "bg": "rgb(181, 82, 32)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "9999px",
+   "fs": "12px"
+  }
+ ],
+ "pills": [
+  {
+   "t": "",
+   "c": "rgb(26, 26, 26)",
+   "bg": "rgb(255, 255, 255)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "3.35544e+07px",
+   "fs": "16px"
+  },
+  {
+   "t": "",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgb(29, 122, 90)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "3.35544e+07px",
+   "fs": "12px"
+  },
+  {
+   "t": "",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgb(29, 122, 90)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "3.35544e+07px",
+   "fs": "12px"
+  },
+  {
+   "t": "",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgb(107, 101, 96)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "3.35544e+07px",
+   "fs": "12px"
+  },
+  {
+   "t": "",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgb(107, 101, 96)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "3.35544e+07px",
+   "fs": "12px"
+  }
+ ],
+ "borders": [
+  {
+   "t": "rangga.mrw\nBeranda\nTentang\nProject\nPerja",
+   "c": "rgb(26, 26, 26)",
+   "bg": "rgb(255, 255, 255)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "9999px",
+   "fs": "16px"
+  },
+  {
+   "t": "Workspace",
+   "c": "rgb(142, 62, 26)",
+   "bg": "rgb(253, 240, 232)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "9999px",
+   "fs": "14px"
+  },
+  {
+   "t": "ΓîÿK",
+   "c": "rgb(94, 90, 86)",
+   "bg": "rgb(246, 240, 232)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "9999px",
+   "fs": "11px"
+  },
+  {
+   "t": "",
+   "c": "rgb(26, 26, 26)",
+   "bg": "rgb(255, 255, 255)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "3.35544e+07px",
+   "fs": "16px"
+  },
+  {
+   "t": "Lihat Project",
+   "c": "rgb(255, 255, 255)",
+   "bg": "rgb(181, 82, 32)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "9999px",
+   "fs": "14px"
+  },
+  {
+   "t": "Lihat CV",
+   "c": "rgb(26, 26, 26)",
+   "bg": "rgb(255, 255, 255)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "9999px",
+   "fs": "14px"
+  },
+  {
+   "t": "MENDENGARKAN\n\nMix Harian.\n\nBuka di Spoti",
+   "c": "rgb(26, 26, 26)",
+   "bg": "rgb(255, 255, 255)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "16px",
+   "fs": "16px"
+  },
+  {
+   "t": "01\nKULIAH\n\nSemester 5, Sistem Informasi ",
+   "c": "rgb(26, 26, 26)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "16px"
+  },
+  {
+   "t": "02\nBANGUN\n\nAlkonekPlus (speed test untuk",
+   "c": "rgb(26, 26, 26)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "16px"
+  },
+  {
+   "t": "03\nJELAJAH\n\nNext.js, Laravel, infrastruk",
+   "c": "rgb(26, 26, 26)",
+   "bg": "rgba(0, 0, 0, 0)",
+   "bc": "rgb(226, 217, 207)",
+   "br": "0px",
+   "fs": "16px"
+  }
+ ],
+ "warm": {
+  "text": "Detail",
+  "color": "rgb(74, 70, 66)",
+  "bg": "rgb(246, 240, 232)",
+  "border": "rgb(226, 217, 207)",
+  "fs": "12px",
+  "fw": "500",
+  "ff": "sans, \"sans Fallback\"",
+  "ls": "normal",
+  "tt": "none"
+ },
+ "card": {
+  "text": "rangga.mrw\nBeranda\nTentang\nProject\nPerjalanan\nStack\nWorkspac",
+  "color": "rgb(26, 26, 26)",
+  "bg": "rgb(255, 255, 255)",
+  "border": "rgb(226, 217, 207)",
+  "fs": "16px",
+  "fw": "400",
+  "ff": "sans, \"sans Fallback\"",
+  "ls": "normal",
+  "tt": "none"
+ },
+ "heroMeta": {
+  "text": "SERANG, BANTEN ┬╖ RANGGA.MRW",
+  "color": "rgb(94, 90, 86)",
+  "bg": "rgba(0, 0, 0, 0)",
+  "border": "rgb(226, 217, 207)",
+  "fs": "12px",
+  "fw": "400",
+  "ff": "\"JetBrains Mono\", \"JetBrains Mono Fallback\", ui-monospace, monospace",
+  "ls": "0.6px",
+  "tt": "uppercase"
+ },
+ "statusDot": null
+}
+
+console errors/warnings (0):
+
+requests failed (0):

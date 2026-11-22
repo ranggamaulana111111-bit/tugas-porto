@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portofolio Rangga Maulana Ramadhan Wiharto - Mahasiswa Sistem Informasi yang membangun software, jaringan, dan infrastruktur." />
+    <meta name="theme-color" content="#fdfbf7" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>Rangga Maulana Ramadhan Wiharto</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Lewati ke konten</a>
+    <header class="site-header" id="site-header">
+      <nav class="nav" aria-label="Navigasi utama">
+        <a class="brand" href="#home" aria-label="rangga.mrw ke beranda">rangga.mrw</a>
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Buka menu navigasi">
+          <span></span><span></span>
+        </button>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-links" id="nav-links"></ul>
+          <div class="nav-actions">
+            <button class="cmd-btn" id="cmd-btn" type="button" aria-haspopup="dialog" aria-controls="command-palette" aria-label="Buka command palette">
+              <span class="cmd-btn-icon" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              </span>
+              <span class="cmd-kbd" aria-hidden="true">Ctrl K</span>
+            </button>
+            <a class="btn btn-primary btn-sm" href="#contact">Hubungi</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="section hero" id="home" aria-label="Beranda">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow hero-eyebrow"><span class="eyebrow-loc">SERANG, BANTEN</span> <span class="eyebrow-dot" aria-hidden="true">·</span> <span>RANGGA.MRW</span></p>
+            <h1 class="hero-title">
+              <span class="hero-title-line">Rangga Maulana</span>
+              <span class="hero-title-line">Ramadhan Wiharto</span>
+            </h1>
+            <p class="hero-desc">Mahasiswa Sistem Informasi. Berada di Serang, Banten.</p>
+            <p class="hero-building">Project yang sedang saya bangun: AlkonekPlus, RabegLab, dan site ini.</p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#projects">
+                <span>Lihat Project</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+              <a class="btn btn-secondary" href="https://ranggamrw.my.id/cv" target="_blank" rel="noopener noreferrer">Lihat CV</a>
+            </div>
+            <div class="listening-card" aria-label="Sedang mendengarkan">
+              <p class="listening-label"><span class="listening-dot" aria-hidden="true"></span>MENDENGARKAN</p>
+              <p class="listening-title">Mix Harian.</p>
+              <a class="listening-link" href="https://open.spotify.com/playlist/1dd0RgxyoiRiFLptOChO6e?si=02ad28709f664a86" target="_blank" rel="noopener noreferrer">
+                Buka di Spotify
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-canvas-wrap" id="hero-canvas-wrap">
+              <canvas id="hero-canvas"></canvas>
+              <div class="hero-canvas-fallback" id="hero-canvas-fallback">
+                <div class="fallback-grid"></div>
+                <div class="fallback-orb fallback-orb-a"></div>
+                <div class="fallback-orb fallback-orb-b"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="now">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">CURRENTLY</p>
+            <h2 class="section-title">Yang sedang terjadi.</h2>
+            <p class="section-desc">Sekarang saya sedang berada di fase kuliah sambil mencoba memahami apa yang sebenarnya ingin saya bangun ke depannya.</p>
+          </div>
+          <div class="now-list" id="now-list"></div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">TENTANG SAYA</p>
+            <h2 class="section-title">Mahasiswa yang belajar lewat membangun.</h2>
+          </div>
+          <div class="about-body" id="about-body"></div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">PROJECT PILIHAN</p>
+            <h2 class="section-title">Project sebagai bukti belajar.</h2>
+            <p class="section-desc">Bukan daftar stack. Setiap project adalah sistem yang saya bangun dan pelajari dari awal sampai bisa dipakai.</p>
+          </div>
+          <div class="projects-list" id="projects-list"></div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">PENGALAMAN</p>
+            <h2 class="section-title">Perjalanan belajar.</h2>
+            <p class="section-desc">Belum dalam format corporate. Ini project sebagai pengalaman teknis, dari pertama kenal kode sampai sistem yang dipakai orang lain.</p>
+          </div>
+          <div class="timeline" id="timeline"></div>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">PENDIDIKAN</p>
+            <h2 class="section-title">Pendidikan.</h2>
+          </div>
+          <div class="edu-list" id="edu-list"></div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">TEKNOLOGI</p>
+            <h2 class="section-title">Teknologi yang saya pakai.</h2>
+            <p class="section-desc">Hanya yang memang sudah saya pakai di project, bukan daftar populer.</p>
+          </div>
+          <div class="skills-grid" id="skills-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="learning">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">YANG SEDANG DIPELAJARI</p>
+            <h2 class="section-title">Bidang yang sedang saya dalami.</h2>
+            <p class="section-desc">Area yang sedang saya pelajari dan kembangkan melalui project dan eksplorasi langsung.</p>
+          </div>
+          <div class="learning-grid" id="learning-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="outside">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">DI LUAR LAYAR</p>
+            <h2 class="section-title">Hidup di luar layar.</h2>
+            <p class="section-desc">Hal-hal di luar pekerjaan yang saya pilih untuk dibagikan. Jarang diperbarui, itu memang disengaja.</p>
+          </div>
+          <div class="outside-entry">
+            <p class="outside-date">Sep 2026</p>
+            <p class="outside-text">Jauh dari layar, sebagian besar hidup saya berisi hal-hal yang tidak dibagikan ke internet. Kalau ada yang layak diceritakan, saya tulis di sini.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="journal">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">CATATAN</p>
+            <h2 class="section-title">Dari jurnal.</h2>
+            <p class="section-desc">Hal-hal yang saya pelajari, pikirkan, atau dokumentasikan.</p>
+          </div>
+          <div class="notes-list" id="notes-list"></div>
+          <a class="text-link" href="https://ranggamrw.my.id/workspace#catatan" target="_blank" rel="noopener noreferrer">Semua catatan ada di Di Balik Layar</a>
+        </div>
+      </section>
+
+      <section class="section" id="workspace">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">DI BALIK LAYAR</p>
+            <h2 class="section-title">Hal yang sedang saya kerjakan, pelajari, dan coba.</h2>
+            <p class="section-desc">Dokumentasi proses, eksperimen, dan technical notes yang tidak muat di halaman ini, tersimpan di sana.</p>
+          </div>
+          <a class="btn btn-secondary" href="https://ranggamrw.my.id/workspace" target="_blank" rel="noopener noreferrer">Buka Di Balik Layar</a>
+        </div>
+      </section>
+
+      <section class="section" id="messages">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">PESAN ANONIM</p>
+            <h2 class="section-title">Pesan Anonim</h2>
+            <p class="section-desc">Kirim pesan dan langsung tampil di browser ini. Cerita, curhat, motivasi, atau sekadar halo. Ini simulasi lokal, bukan pesan server.</p>
+          </div>
+          <div class="messages-layout">
+            <form class="message-form" id="message-form" novalidate>
+              <div class="field">
+                <label class="field-label" for="msg-name">Nama <span class="field-opt">(opsional)</span></label>
+                <input class="field-input" id="msg-name" name="name" type="text" autocomplete="name" maxlength="60" placeholder="Nama atau alias" />
+              </div>
+              <div class="field">
+                <label class="field-label" for="msg-text">Pesan</label>
+                <textarea class="field-input field-textarea" id="msg-text" name="message" required maxlength="500" placeholder="Tulis pesanmu..."></textarea>
+                <p class="field-hint"><span id="msg-count">0</span>/500</p>
+              </div>
+              <p class="form-status" id="msg-status" role="status" aria-live="polite"></p>
+              <button class="btn btn-primary" type="submit">Kirim Pesan</button>
+            </form>
+            <div class="message-feed" aria-live="polite">
+              <p class="feed-title">Pesan terbaru</p>
+              <div class="feed-list" id="feed-list"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">KONTAK</p>
+            <h2 class="section-title">Mari terhubung.</h2>
+            <p class="section-desc">Terbuka untuk kesempatan belajar, internship, part-time, freelance project, dan kolaborasi teknis.</p>
+          </div>
+          <div class="contact-actions">
+            <button class="contact-pill" id="copy-email" type="button" data-email="ranggamaulana111111@gmail.com">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <span>Email</span>
+            </button>
+            <a class="contact-pill" href="https://github.com/ranggamaulana111111-bit" target="_blank" rel="noopener noreferrer">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a class="contact-pill" href="https://www.linkedin.com/in/rangga-maulana-ramadhan-wiharto-022077337/" target="_blank" rel="noopener noreferrer">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zM6.814 20.452H3.86V9h2.954v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a class="contact-pill" href="https://wa.me/6285774138047" target="_blank" rel="noopener noreferrer">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+          <p class="contact-location">Serang, Banten · <button class="inline-email" id="copy-email-inline" type="button" data-email="ranggamaulana111111@gmail.com">ranggamaulana111111@gmail.com</button></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand-col">
+          <a class="brand footer-brand" href="#home">rangga.mrw</a>
+          <p class="footer-tagline">Mahasiswa Sistem Informasi yang membangun software, jaringan, dan infrastruktur</p>
+          <div class="footer-cta">
+            <a class="btn btn-secondary btn-sm" href="https://ranggamrw.my.id/cv" target="_blank" rel="noopener noreferrer">Lihat CV</a>
+            <a class="btn btn-secondary btn-sm" href="https://ranggamrw.my.id/stack" target="_blank" rel="noopener noreferrer">Lihat Stack</a>
+            <a class="btn btn-secondary btn-sm" href="https://ranggamrw.my.id/workspace" target="_blank" rel="noopener noreferrer">Workspace</a>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <a href="https://github.com/ranggamaulana111111-bit" target="_blank" rel="noopener noreferrer">github.com/ranggamaulana</a>
+          <a href="https://www.linkedin.com/in/rangga-maulana-ramadhan-wiharto-022077337/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://wa.me/6285774138047" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <button class="footer-email" id="copy-email-footer" type="button" data-email="ranggamaulana111111@gmail.com">Email</button>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Rangga Maulana Ramadhan Wiharto</p>
+        <p class="footer-note">Dibuat dengan HTML, CSS, JavaScript & Three.js</p>
+      </div>
+    </footer>
+
+    <button class="back-top" id="back-top" type="button" aria-label="Kembali ke atas">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+
+    <div class="modal" id="project-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-title">
+      <div class="modal-backdrop" data-close="modal"></div>
+      <div class="modal-panel" role="document">
+        <button class="modal-close" id="modal-close" type="button" aria-label="Tutup detail project">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+        <p class="eyebrow" id="modal-meta"></p>
+        <h3 class="modal-title" id="modal-title"></h3>
+        <p class="modal-role" id="modal-role"></p>
+        <p class="modal-desc" id="modal-desc"></p>
+        <div class="modal-tech" id="modal-tech"></div>
+        <div class="modal-actions" id="modal-actions"></div>
+      </div>
+    </div>
+
+    <div class="cmd-overlay" id="cmd-overlay" aria-hidden="true">
+      <div class="cmd-backdrop" data-close="cmd"></div>
+      <div class="cmd-palette" role="dialog" aria-modal="true" aria-label="Command palette">
+        <div class="cmd-input-wrap">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input class="cmd-input" id="cmd-input" type="text" placeholder="Cari section atau aksi..." autocomplete="off" aria-label="Cari section atau aksi" />
+          <kbd class="cmd-esc">Esc</kbd>
+        </div>
+        <ul class="cmd-list" id="cmd-list" role="listbox"></ul>
+        <div class="cmd-empty" id="cmd-empty" hidden>Tidak ada hasil.</div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

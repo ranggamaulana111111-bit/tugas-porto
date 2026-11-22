@@ -1,0 +1,391 @@
+﻿url        https://ranggamrw.my.id
+http       200
+load       2644ms
+title      "Rangga Maulana Ramadhan Wiharto"
+bodyChars  7093
+patchright C:\Users\hp\.vscode\extensions\danielsanmedium.dscodegpt-3.24.84\standalone/
+text       rangga.mrw Beranda Tentang Project Perjalanan Stack Workspace Pesan Kontak ΓîÿK Hubungi SERANG, BANTEN ┬╖ RANGGA.MRW Rangga Maulana Ramadhan Wiharto Mahasiswa Sistem Informasi. Berada di Serang, Banten. 
+script     {
+ "vars": {
+  "--lightningcss-light": "initial",
+  "--lightningcss-dark": ""
+ },
+ "body": {
+  "fontFamily": "sans, \"sans Fallback\"",
+  "color": "rgb(26, 26, 26)",
+  "bg": "rgb(253, 251, 247)"
+ },
+ "nav": {
+  "style": {
+   "fontFamily": "sans, \"sans Fallback\"",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "color": "rgb(26, 26, 26)",
+   "backgroundColor": "rgb(255, 255, 255)",
+   "letterSpacing": "normal",
+   "maxWidth": "896px",
+   "padding": "8px",
+   "margin": "0px",
+   "borderRadius": "9999px",
+   "border": "1px solid rgb(226, 217, 207)",
+   "display": "flex",
+   "gap": "8px"
+  },
+  "rect": {
+   "x": 192,
+   "y": 24,
+   "width": 896,
+   "height": 62,
+   "top": 24,
+   "right": 1088,
+   "bottom": 86,
+   "left": 192
+  },
+  "links": [
+   {
+    "text": "rangga.mrw",
+    "href": "#home"
+   },
+   {
+    "text": "Beranda",
+    "href": "#home"
+   },
+   {
+    "text": "Tentang",
+    "href": "#about"
+   },
+   {
+    "text": "Project",
+    "href": "#projects"
+   },
+   {
+    "text": "Perjalanan",
+    "href": "#experience"
+   },
+   {
+    "text": "Stack",
+    "href": "#skills"
+   },
+   {
+    "text": "Workspace",
+    "href": "/workspace"
+   },
+   {
+    "text": "Pesan",
+    "href": "/messages"
+   },
+   {
+    "text": "Kontak",
+    "href": "#contact"
+   },
+   {
+    "text": "Hubungi",
+    "href": "#contact"
+   }
+  ]
+ },
+ "h1": {
+  "text": "Rangga Maulana\nRamadhan Wiharto",
+  "style": {
+   "fontFamily": "display, \"display Fallback\", sans, \"sans Fallback\", sans-serif",
+   "fontSize": "52px",
+   "fontWeight": "700",
+   "lineHeight": "49.4px",
+   "color": "rgb(26, 26, 26)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "letterSpacing": "-1.3px",
+   "maxWidth": "none",
+   "padding": "0px",
+   "margin": "16px 0px 0px",
+   "borderRadius": "0px",
+   "border": "0px solid rgb(226, 217, 207)",
+   "display": "block",
+   "gap": "normal"
+  },
+  "rect": {
+   "x": 256,
+   "y": 160,
+   "width": 768,
+   "height": 98.78125,
+   "top": 160,
+   "right": 1024,
+   "bottom": 258.78125,
+   "left": 256
+  }
+ },
+ "h2": {
+  "text": "Yang sedang terjadi.",
+  "style": {
+   "fontFamily": "display, \"display Fallback\", sans, \"sans Fallback\", sans-serif",
+   "fontSize": "36px",
+   "fontWeight": "700",
+   "lineHeight": "40px",
+   "color": "rgb(26, 26, 26)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "letterSpacing": "-0.9px",
+   "maxWidth": "none",
+   "padding": "0px",
+   "margin": "12px 0px 0px",
+   "borderRadius": "0px",
+   "border": "0px solid rgb(226, 217, 207)",
+   "display": "block",
+   "gap": "normal"
+  },
+  "rect": {
+   "x": 256,
+   "y": 775.53125,
+   "width": 768,
+   "height": 40,
+   "top": 775.53125,
+   "right": 1024,
+   "bottom": 815.53125,
+   "left": 256
+  }
+ },
+ "h3": {
+  "text": "ALKONEK",
+  "style": {
+   "fontFamily": "display, \"display Fallback\", sans, \"sans Fallback\", sans-serif",
+   "fontSize": "24px",
+   "fontWeight": "700",
+   "lineHeight": "32px",
+   "color": "rgb(26, 26, 26)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "letterSpacing": "-0.6px",
+   "maxWidth": "none",
+   "padding": "0px",
+   "margin": "12px 0px 0px",
+   "borderRadius": "0px",
+   "border": "0px solid rgb(226, 217, 207)",
+   "display": "block",
+   "gap": "normal"
+  },
+  "rect": {
+   "x": 285,
+   "y": 2153.90625,
+   "width": 710,
+   "height": 32,
+   "top": 2153.90625,
+   "right": 995,
+   "bottom": 2185.90625,
+   "left": 285
+  }
+ },
+ "p": {
+  "text": "SERANG, BANTEN ┬╖ RANGGA.MRW",
+  "style": {
+   "fontFamily": "\"JetBrains Mono\", \"JetBrains Mono Fallback\", ui-monospace, monospace",
+   "fontSize": "12px",
+   "fontWeight": "400",
+   "lineHeight": "16px",
+   "color": "rgb(94, 90, 86)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "letterSpacing": "0.6px",
+   "maxWidth": "none",
+   "padding": "0px",
+   "margin": "0px",
+   "borderRadius": "0px",
+   "border": "0px solid rgb(226, 217, 207)",
+   "display": "block",
+   "gap": "normal"
+  },
+  "rect": {
+   "x": 256,
+   "y": 128,
+   "width": 768,
+   "height": 16,
+   "top": 128,
+   "right": 1024,
+   "bottom": 144,
+   "left": 256
+  }
+ },
+ "sections": [
+  {
+   "tag": "HEADER",
+   "id": "",
+   "class": "fixed inset-x-0 top-0 z-50 flex justify-center px-4 pt-4 sm:px-6 sm:pt-6",
+   "top": 0,
+   "height": 86,
+   "bg": "rgba(0, 0, 0, 0)",
+   "padding": "24px 24px 0px"
+  },
+  {
+   "tag": "SECTION",
+   "id": "home",
+   "class": "px-6 pt-28 sm:pt-32 pb-12 sm:pb-16",
+   "top": 0,
+   "height": 647.53125,
+   "bg": "rgba(0, 0, 0, 0)",
+   "padding": "128px 24px 64px"
+  },
+  {
+   "tag": "SECTION",
+   "id": "now",
+   "class": "px-6 py-16 sm:py-20",
+   "top": 647.53125,
+   "height": 714,
+   "bg": "rgba(0, 0, 0, 0)",
+   "padding": "80px 24px"
+  },
+  {
+   "tag": "SECTION",
+   "id": "about",
+   "class": "px-6 py-16 sm:py-20",
+   "top": 1361.53125,
+   "height": 462.625,
+   "bg": "rgba(0, 0, 0, 0)",
+   "padding": "80px 24px"
+  },
+  {
+   "tag": "SECTION",
+   "id": "projects",
+   "class": "px-6 py-16 sm:py-20",
+   "top": 1824.15625,
+   "height": 1581.25,
+   "bg": "rgba(0, 0, 0, 0)",
+   "padding": "80px 24px"
+  },
+  {
+   "tag": "SECTION",
+   "id": "experience",
+   "class": "px-6 py-16 sm:py-20",
+   "top": 3405.40625,
+   "height": 1141.75,
+   "bg": "rgba(0, 0, 0, 0)",
+   "padding": "80px 24px"
+  },
+  {
+   "tag": "SECTION",
+   "id": "education",
+   "class": "px-6 py-16 sm:py-20",
+   "top": 4547.15625,
+   "height": 581.5,
+   "bg": "rgba(0, 0, 0, 0)",
+   "padding": "80px 24px"
+  },
+  {
+   "tag": "SECTION",
+   "id": "skills",
+   "class": "px-6 py-16 sm:py-20",
+   "top": 5128.65625,
+   "height": 686.375,
+   "bg": "rgba(0, 0, 0, 0)",
+   "padding": "80px 24px"
+  },
+  {
+   "tag": "SECTION",
+   "id": "learning",
+   "class": "px-6 py-16 sm:py-20",
+   "top": 5815.03125,
+   "height": 658.375,
+   "bg": "rgba(0, 0, 0, 0)",
+   "padding": "80px 24px"
+  },
+  {
+   "tag": "SECTION",
+   "id": "outside",
+   "class": "px-6 py-16 sm:py-20",
+   "top": 6473.40625,
+   "height": 382.375,
+   "bg": "rgba(0, 0, 0, 0)",
+   "padding": "80px 24px"
+  },
+  {
+   "tag": "SECTION",
+   "id": "journal",
+   "class": "px-6 py-16 sm:py-20",
+   "top": 6855.78125,
+   "height": 589.125,
+   "bg": "rgba(0, 0, 0, 0)",
+   "padding": "80px 24px"
+  },
+  {
+   "tag": "SECTION",
+   "id": "",
+   "class": "px-6 py-16 sm:py-20",
+   "top": 7444.90625,
+   "height": 339.5,
+   "bg": "rgba(0, 0, 0, 0)",
+   "padding": "80px 24px"
+  },
+  {
+   "tag": "SECTION",
+   "id": "messages",
+   "class": "px-6 py-16 sm:py-20",
+   "top": 7784.40625,
+   "height": 575.75,
+   "bg": "rgba(0, 0, 0, 0)",
+   "padding": "80px 24px"
+  },
+  {
+   "tag": "SECTION",
+   "id": "contact",
+   "class": "px-6 py-16 sm:py-20",
+   "top": 8360.15625,
+   "height": 446.375,
+   "bg": "rgba(0, 0, 0, 0)",
+   "padding": "80px 24px"
+  },
+  {
+   "tag": "FOOTER",
+   "id": "",
+   "class": "border-t border-border bg-bg-warm/50 px-6 py-10",
+   "top": 8806.53125,
+   "height": 279,
+   "bg": "lab(95.1035 1.06639 4.62891 / 0.5)",
+   "padding": "40px 24px"
+  }
+ ],
+ "fonts": [
+  {
+   "family": "sans",
+   "status": "loaded"
+  },
+  {
+   "family": "sans Fallback",
+   "status": "loaded"
+  },
+  {
+   "family": "display",
+   "status": "loaded"
+  },
+  {
+   "family": "display Fallback",
+   "status": "unloaded"
+  },
+  {
+   "family": "JetBrains Mono",
+   "status": "unloaded"
+  },
+  {
+   "family": "JetBrains Mono",
+   "status": "unloaded"
+  },
+  {
+   "family": "JetBrains Mono",
+   "status": "unloaded"
+  },
+  {
+   "family": "JetBrains Mono",
+   "status": "unloaded"
+  },
+  {
+   "family": "JetBrains Mono",
+   "status": "unloaded"
+  },
+  {
+   "family": "JetBrains Mono",
+   "status": "loaded"
+  },
+  {
+   "family": "JetBrains Mono Fallback",
+   "status": "loaded"
+  }
+ ]
+}
+
+console errors/warnings (0):
+
+requests failed (0):
