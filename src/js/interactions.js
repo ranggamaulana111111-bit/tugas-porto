@@ -132,7 +132,7 @@ function initCommandPalette() {
     { label: 'Workspace', type: 'Section', action: () => go('#workspace') },
     { label: 'Pesan', type: 'Section', action: () => go('#messages') },
     { label: 'Kontak', type: 'Section', action: () => go('#contact') },
-    { label: 'Lihat CV', type: 'Aksi', action: () => window.open('https://ranggamrw.my.id/cv', '_blank') },
+    { label: 'Lihat CV', type: 'Aksi', action: () => window.open('./cv.html', '_blank') },
     { label: 'Salin Email', type: 'Aksi', action: () => copyText(site.email, $('#copy-email')) },
   ];
 

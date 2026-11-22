@@ -65,7 +65,7 @@ export const projects = [
     role: 'Pembuat & Developer',
     description: 'Sistem pelayanan administrasi desa: pengajuan surat online dengan workflow approval berjenjang, RBAC 8 role, versioning dokumen, verifikasi QR, dan dashboard analitik per peran.',
     tech: ['Laravel 11', 'MySQL', 'Spatie Permission', 'Blade', 'Tailwind CSS', 'Chart.js'],
-    live: 'https://desa.ranggamrw.my.id/',
+    live: '#',
     github: 'https://github.com/ranggamaulana111111-bit/desamoderen',
     detail: 'Prodesa adalah platform e-Government untuk pelayanan administrasi desa. Fitur utamanya meliputi pengajuan surat online, workflow approval berjenjang, RBAC dengan 8 role berbeda, versioning dokumen, verifikasi QR code, dan dashboard analitik yang disesuaikan per peran pengguna.',
   },
